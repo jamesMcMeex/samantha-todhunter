@@ -1,7 +1,7 @@
 # Website for Samantha Todhunter
 
 
-## A static website, built using Nunjucks templates, Sass and JavaScript
+## A static website, built using Gulp, Nunjucks templates, Sass and JavaScript
 
 ### Requirements:
 
