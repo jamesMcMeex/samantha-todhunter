@@ -1,0 +1,15 @@
+{% set includeFlexSlider = true %}
+
+{% extends "layout.nunjucks" %}
+
+{% block heading %}
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col">
+      <h1 class="page-heading text-center">{{ pageTitle }}</h1>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,30 @@
+{
+  "name": "aegon_exercise",
+  "version": "0.0.1",
+  "description": "website for massless",
+  "main": "index.html",
+  "repository": "https://jamesmcmeex@bitbucket.org/jamesmcmeex/aegon_exercise.git",
+  "author": "jamesMcMeex <james@jamesmcmeeken.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-data": "^1.2.1",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-nunjucks-render": "^2.2.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^2.1.2",
+    "pump": "^1.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^bootstrap@4.0.0-beta",
+    "flexslider": "^2.6.4",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.4"
+  }
+}

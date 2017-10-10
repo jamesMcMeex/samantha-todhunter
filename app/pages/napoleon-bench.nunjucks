@@ -1,0 +1,45 @@
+{% set pageTitle = "Napoleon Bench" %}
+
+{% extends "project.nunjucks" %}
+
+{% block content %}
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <div id="slider" class="flexslider">
+        <ul class="slides">
+          {% for image in napoleon_bench %}
+          <li><img src="{{image.slide}}"/></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="custom-navigation">
+        <div class="custom-controls-container"></div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="row">
+        <div class="col">
+          <div id="carousel" class="flexslider">
+            <ul class="slides">
+              {% for image in napoleon_bench %}
+              <li><img src="{{image.thumb}}"/></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>This metal framed bench has been enormously popular with its neat pin tucked upholstery detail and pared down lines - another go-anywhere piece that has become a staple of STD’s bespoke collection.</p>
+          <p>The Napoleon Bench is available to order through our studio. Please email <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}

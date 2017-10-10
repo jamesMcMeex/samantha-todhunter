@@ -1,0 +1,47 @@
+{% set pageTitle = "Chicago" %}
+
+{% extends "project.nunjucks" %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <div id="slider" class="flexslider">
+        <ul class="slides">
+          {% for image in chicago %}
+          <li><img src="{{image.slide}}"/></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="custom-navigation">
+        <div class="custom-controls-container"></div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="row">
+        <div class="col">
+          <div id="carousel" class="flexslider">
+            <ul class="slides">
+              {% for image in chicago %}
+              <li><img src="{{image.thumb}}"/></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>We were asked by Ritz Carlton Residences to design a show apartment in the redevelopment of an iconic landmark building on Chicagos Miracle Mile. With an open brief we explored a new take on classic interior design by combining American mid century energy with traditional English overtones.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="back-links"> &gt; Back to <a href="live.html">LIVE</a> / <a href="eat.html">EAT</a> / <a href="bathe.html">BATHE</a> / <a href="sleep.html">SLEEP</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

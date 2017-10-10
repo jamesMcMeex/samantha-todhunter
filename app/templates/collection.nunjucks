@@ -1,0 +1,14 @@
+{% extends "layout.nunjucks" %}
+
+{% block heading %}
+
+<div class="container">
+    <div class="row justify-content-center">
+    <div class="col-8">
+      <h1 class="page-heading text-center">{{ pageTitle }}</h1>
+      <p class="text-center"></p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,32 @@
+{% set pageTitle = "About" %}
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row justify-content-center">
+    <div class="col-8">
+      <h1 class="page-heading text-center">{{ pageTitle }}</h1>
+      <p class="text-center"></p>
+    </div>
+  </div>
+</div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p>Samantha Todhunter Design has an easy modern dynamic. The studio creates interiors that are at once relaxed and informal but paired with essential dashes of glamour and luxe, this thread defines the company’s signature. The Samantha Todhunter interior has an eclectic theme that seamlessly mixes the traditional with the modern whilst creating timeless and classic interiors.</p>
+
+        <p>The firm’s projects range from the refurbishment of an historic 15,000 square foot Julia Morgan house in San Francisco to the interior renovation of a 9,000 square foot Aspen townhouse; houses in London &amp; Chicago, a pied-à-terre in Paris; the restoration of a Grade 2* Queen Anne house in Oxfordshire and holiday homes in the South of France, Switzerland and Mexico to name but a few.</p>
+
+        <p>The team of four, headed up by Samantha, in addition to creating eye catching interiors, also produce a capsule collection of easy, go-anywhere essentials including glossy consoles, daybeds, upholstered trestles and sleek footstools. Samantha Todhunter Design handles all levels of project from a simple decorative refresh to a complete interior overhaul.</p>
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid" src="img/about/samantha_todhunter_550x825.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

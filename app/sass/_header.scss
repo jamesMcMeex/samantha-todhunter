@@ -1,0 +1,11 @@
+.header-logo {
+  display: none;
+
+  @include media-breakpoint-down(lg) {
+    margin: 0 auto;
+    display: block;
+    padding: 2.625rem 1rem 0 0;
+    width: 100%;
+    max-width: 515px;
+  }
+}

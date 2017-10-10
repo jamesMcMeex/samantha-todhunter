@@ -1,0 +1,50 @@
+.flexslider {
+  // border: 0;
+}
+#slider {
+  .flex-viewport {
+    width: 99.9% !important;
+  }
+}
+.flex-direction-nav {
+  a {
+    top: 30px;
+    text-shadow: none;
+    height: 60px;
+    width: 60px;
+    // background-color: rgba(0, 0, 0, 0.1);
+    color: transparent;
+    &.flex-next {
+      &:before {
+        content: url("../img/icons/arrow-fwd.svg");
+        top: 5px;
+        position: absolute;
+        left: 6px;
+      }
+    }
+    &.flex-prev {
+      &:before {
+        content: url("../img/icons/arrow-back.svg");
+        top: 5px;
+        position: absolute;
+        left: 5px;
+      }
+    }
+  }
+}
+
+.flex-control-nav {
+    display: none !important;
+}
+.custom-navigation {
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+}
+.flexslider {
+  .slides {
+    > li {
+      cursor: pointer;
+  }
+}
+}

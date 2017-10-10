@@ -1,0 +1,43 @@
+{% set pageTitle = "Custom Work" %}
+
+{% extends "project.nunjucks" %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <div id="slider" class="flexslider">
+        <ul class="slides">
+          {% for image in custom_work %}
+          <li><img src="{{image.slide}}"/></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="custom-navigation">
+        <div class="custom-controls-container"></div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="row">
+        <div class="col">
+          <div id="carousel" class="flexslider">
+            <ul class="slides">
+              {% for image in custom_work %}
+              <li><img src="{{image.thumb}}"/></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>We often create custom designs for interiors from detailed joinery to lift interiors, libraries and stair cases - here are just a few examples from past projects.</p>
+          <p>To enquire about custom work, please email <a href="mailto:studio@samanthatodhunter.com"></a>studio@samanthatodhunter.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

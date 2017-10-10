@@ -1,0 +1,50 @@
+.social-media-nav {
+  width: 200px;
+  margin: 0 auto;
+  list-style: none;
+  @include media-breakpoint-up(lg) {
+    width: 110px;
+  }
+}
+
+.social-media-nav__icon {
+  margin-top: 6px;
+  width: 20px;
+  height: 20px;
+}
+
+.social-media-homepage {
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+
+  @include media-breakpoint-up(sm) {
+    -webkit-box-pack: end !important;
+    -ms-flex-pack: end !important;
+    justify-content: flex-end !important;
+  }
+}
+
+.social-media-homepage__icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 0;
+  margin-right: 25px;
+
+  @include media-breakpoint-up(sm) {
+    margin-top: 10px;
+  }
+}
+
+.homes-gardens-icon {
+  width: 80px;
+  margin-right: 0;
+  
+  @include media-breakpoint-up(sm) {
+    margin-right: 15px;
+    width: 120px;
+  }
+}

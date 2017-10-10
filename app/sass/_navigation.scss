@@ -1,0 +1,67 @@
+.sth-navbar {
+  padding: 2.625rem 1rem;
+  text-transform: uppercase;
+
+  @include media-breakpoint-down(md) {
+    padding: 2rem 1rem;
+  }
+
+  .nav-link, .dropdown-item {
+    color: #000000;
+    letter-spacing: 0.15rem;
+    font-size: 0.9rem;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.8);
+    }
+  }
+
+  .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-toggler-icon {
+    background-image: $navbar-light-toggler-icon-bg;
+  }
+
+  .dropdown-menu {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+
+  .dropdown-toggle {
+    &:after {
+      display: none !important;
+    }
+  }
+
+  .dropdown-item {
+    &:hover {
+      background-color: transparent;
+    }
+    &.active {
+      color: rgba(0, 0, 0, 0.8);
+      text-decoration: none;
+      background-color: transparent;
+    }
+    &:active {
+      color: rgba(0, 0, 0, 0.8);
+      text-decoration: none;
+      background-color: transparent;
+    }
+
+    @include media-breakpoint-down(lg) {
+      text-align: center;
+    }
+  }
+
+  .sth-navbar__logo {
+    max-width: 515px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -30px;
+  }
+}

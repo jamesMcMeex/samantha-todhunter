@@ -1,0 +1,16 @@
+footer {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-family: $didotRegular;
+  text-align: center;
+
+  .footer__container {
+    max-width: 800px;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  h2 {
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {%if pageTitle == undefined %}
+      <title>Samantha Todhunter</title>
+    {% else %}
+      <title>{{ pageTitle }} | Samantha Todhunter</title>
+    {% endif %}
+
+    {% if includeFlexSlider %}
+    <link href="css/flexslider.css" rel="stylesheet"/>
+    {% endif %}
+
+    <link href="css/styles.css" rel="stylesheet"/>
+
+    <link rel="shortcut icon" href="img/global/favicon.ico">
+
+    <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]-->
+
+  </head>
+
+  <body>
+
+    {% include 'partials/header.nunjucks' %}
+
+    {% import 'macros/navigation-macro.nunjucks' as nav %}
+    {{nav.active(pageTitle)}}
+
+    {% block heading%}{% endblock %}
+
+    {% block content %}{% endblock %}
+
+    {% include 'partials/footer.nunjucks' %}
+
+    <script src="js/frameworks.js"></script>
+
+    {% if includeFlexSlider %}
+    <script src="js/jquery.flexslider.js"></script>
+    {% endif %}
+
+    <script src="js/scripts.js"></script>
+
+  </body>
+
+</html>

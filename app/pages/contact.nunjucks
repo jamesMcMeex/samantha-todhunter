@@ -1,0 +1,41 @@
+{% set pageTitle = "Contact" %}
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+  <div class="container">
+      <div class="row justify-content-center">
+      <div class="col-8">
+        <h1 class="page-heading text-center">{{ pageTitle }}</h1>
+        <p class="text-center"></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 order-md-2">
+        <address>
+          Samantha Todhunter Design Ltd<br />
+          73 Cardross Street<br />
+          London<br />
+          W6 0DP
+        </address>
+        <p>tel: <a href="tel:02087419859">0208 741 9859</a></p>
+        <p>mobile: <a href="tel:07469766856">07469 766 856</a></p>
+        <p><a href="mailto:susannah@samanthatodhunter.com">susannah@samanthatodhunter.com</a></p>
+        <p>Bespoke Furniture Services:<br />
+          <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a>
+        </p>
+        <small>Photography: Steve Dalton | Nathan Kirkman | Oliver Clarke | Serena Bolton</small>
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid" src="img/contact/sweets.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

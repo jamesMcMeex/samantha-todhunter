@@ -1,0 +1,41 @@
+{% set pageTitle = "Interiors" %}
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row justify-content-center">
+    <div class="col-8">
+      <h1 class="page-heading text-center">{{ pageTitle }}</h1>
+      <p class="text-center"></p>
+    </div>
+  </div>
+</div>
+
+  <div class="container image-grid">
+    <div class="row">
+      <div class="col-sm-6 col-lg-3 image-grid__item">
+        <h2 class="image-grid__title">Live</h2>
+        <img src="img/index/live.jpg" class="image-grid__image"/>
+        <a class="image-grid__link" href="live.html"></a>
+      </div>
+      <div class="col-sm-6 col-lg-3 image-grid__item">
+        <h2 class="image-grid__title">Eat</h2>
+        <img src="img/index/eat.jpg" class="image-grid__image"/>
+        <a class="image-grid__link" href="eat.html"></a>
+      </div>
+      <div class="col-sm-6 col-lg-3 image-grid__item">
+        <h2 class="image-grid__title">Bathe</h2>
+        <img src="img/index/bathe.jpg" class="image-grid__image"/>
+        <a class="image-grid__link" href="bathe.html"></a>
+      </div>
+      <div class="col-sm-6 col-lg-3 image-grid__item">
+        <h2 class="image-grid__title">Sleep</h2>
+        <img src="img/index/sleep.jpg" class="image-grid__image"/>
+        <a class="image-grid__link" href="sleep.html"></a>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

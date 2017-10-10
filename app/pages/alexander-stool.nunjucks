@@ -1,0 +1,43 @@
+{% set pageTitle = "The Alexander Stool" %}
+
+{% extends "project.nunjucks" %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <div id="slider" class="flexslider">
+        <ul class="slides">
+          {% for image in alexander_stool %}
+          <li><img src="{{image.slide}}"/></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="custom-navigation">
+        <div class="custom-controls-container"></div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="row">
+        <div class="col">
+          <div id="carousel" class="flexslider">
+            <ul class="slides">
+              {% for image in alexander_stool %}
+              <li><img src="{{image.thumb}}"/></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>Another classically inspired piece that works beautifully under the Lucia console as extra seating in a drawing room, side by side at the end of a bed or in a dressing room, - it is the perfect extra piece in any room scheme.</p>
+          <p>The Alexander Stool is available to order through our studio. Please email <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

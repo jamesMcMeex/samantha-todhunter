@@ -1,0 +1,84 @@
+// Fonts
+@font-face {
+  font-family: "AvenirLight";
+  src: url("../fonts/avenir/AvenirLTW01-35Light.eot");
+  src:url("../fonts/avenir/AvenirLTW01-35Light.eot?#iefix") format("embedded-opentype"),
+  // url("../fonts/AvenirLTW01-35Light.woff2") format("woff2"),
+  url("../fonts/avenir/AvenirLTW01-35Light.woff") format("woff"),
+  url("../fonts/avenir/AvenirLTW01-35Light.ttf") format("truetype"),
+  url( "../fonts/avenir/AvenirLTW01-35Light.svg#svgFontName") format("svg");
+}
+
+@font-face {
+  font-family: "AvenirBook";
+  src: url("../fonts/avenir/AvenirLTW01-45Book.eot");
+  src:url("../fonts/avenir/AvenirLTW01-45Book.eot?#iefix") format("embedded-opentype"),
+  // url("../fonts/AvenirLTW01-45Book.woff2") format("woff2"),
+  url("../fonts/avenir/AvenirLTW01-45Book.woff") format("woff"),
+  url("../fonts/avenir/AvenirLTW01-45Book.ttf") format("truetype"),
+  url( "../fonts/avenir/AvenirLTW01-45Book.svg#svgFontName") format("svg");
+}
+
+@font-face {
+  font-family: "AvenirMedium";
+  src: url("../fonts/avenir/AvenirLTW01-65Medium.eot");
+  src:url("../fonts/avenir/AvenirLTW01-65Medium.eot?#iefix") format("embedded-opentype"),
+  // url("../fonts/AvenirLTW01-65Medium.woff2") format("woff2"),
+  url("../fonts/avenir/AvenirLTW01-65Medium.woff") format("woff"),
+  url("../fonts/avenir/AvenirLTW01-65Medium.ttf") format("truetype"),
+  url( "../fonts/avenir/AvenirLTW01-65Medium.svg#svgFontName") format("svg");
+}
+
+@font-face {
+  font-family: "AvenirHeavy";
+  src: url("../fonts/avenir/AvenirLTW01-85Heavy.eot");
+  src:url("../fonts/avenir/AvenirLTW01-85Heavy.eot?#iefix") format("embedded-opentype"),
+  // url("../fonts/AvenirLTW01-85Heavy.woff2") format("woff2"),
+  url("../fonts/avenir/AvenirLTW01-85Heavy.woff") format("woff"),
+  url("../fonts/avenir/AvenirLTW01-85Heavy.ttf") format("truetype"),
+  url( "../fonts/avenir/AvenirLTW01-85Heavy.svg#svgFontName") format("svg");
+}
+
+@font-face {
+  font-family: "DidotRegular";
+  src: url("../fonts/didot/DidotRegular.eot");
+  src:url("../fonts/didot/DidotRegular.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/didot/DidotRegular.woff") format("woff"),
+  url("../fonts/didot/DidotRegular.ttf") format("truetype"),
+  url( "../fonts/didot/DidotRegular.svg#svgFontName") format("svg");
+}
+
+@font-face {
+  font-family: "DidotMedium";
+  src: url("../fonts/didot/DidotMedium.eot");
+  src:url("../fonts/didot/DidotMedium.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/didot/DidotMedium.woff") format("woff"),
+  url("../fonts/didot/DidotMedium.ttf") format("truetype"),
+  url( "../fonts/didot/DidotMedium.svg#svgFontName") format("svg");
+}
+
+@font-face {
+  font-family: "DidotBold";
+  src: url("../fonts/didot/DidotBold.eot");
+  src:url("../fonts/didot/DidotBold.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/didot/DidotBold.woff") format("woff"),
+  url("../fonts/didot/DidotBold.ttf") format("truetype"),
+  url( "../fonts/didot/DidotBold.svg#svgFontName") format("svg");
+}
+
+@font-face {
+  font-family: "DidotItalic";
+  src: url("../fonts/didot/DidotItalic.eot");
+  src:url("../fonts/didot/DidotItalic.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/didot/DidotItalic.woff") format("woff"),
+  url("../fonts/didot/DidotItalic.ttf") format("truetype"),
+  url( "../fonts/didot/DidotItalic.svg#svgFontName") format("svg");
+}
+
+@font-face {
+  font-family: 'flexslider-icon';
+  src: url('../fonts/flexslider-icon.eot');
+  src: url('../fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('../fonts/flexslider-icon.woff') format('woff'), url('fonts/flexslider-icon.ttf') format('truetype'), url('../fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

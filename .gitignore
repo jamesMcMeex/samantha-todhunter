@@ -1,0 +1,9 @@
+# Ignored project files
+
+build
+node_modules
+temp-img-holding
+
+# Ignored system files
+
+.DS_Store

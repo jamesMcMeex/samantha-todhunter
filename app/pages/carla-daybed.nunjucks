@@ -1,0 +1,43 @@
+{% set pageTitle = "Carla Daybed" %}
+
+{% extends "project.nunjucks" %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <div id="slider" class="flexslider">
+        <ul class="slides">
+          {% for image in carla_daybed %}
+          <li><img src="{{image.slide}}"/></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="custom-navigation">
+        <div class="custom-controls-container"></div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="row">
+        <div class="col">
+          <div id="carousel" class="flexslider">
+            <ul class="slides">
+              {% for image in carla_daybed %}
+              <li><img src="{{image.thumb}}"/></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>A key piece for a small room that works as a quiet retreat or study for most of the time and then doubles up as a spare room for guests when needed. The seat cushion can be a mattress and it can come with or without a back, as a sofa bed or simply as a daybed. </p>
+          <p>The Carla Daybed is available to order through our studio. Please email <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

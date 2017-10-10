@@ -1,0 +1,48 @@
+{% set pageTitle = "Carcassonne, South West France" %}
+
+{% extends "project.nunjucks" %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <div id="slider" class="flexslider">
+        <ul class="slides">
+          {% for image in south_of_france %}
+          <li><img src="{{image.slide}}"/></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="custom-navigation">
+        <div class="custom-controls-container"></div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="row">
+        <div class="col">
+          <div id="carousel" class="flexslider">
+            <ul class="slides">
+              {% for image in south_of_france %}
+              <li><img src="{{image.thumb}}"/></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>What started out as a dilapidated stone wine storage barn in the heart of the Languedoc was painstakingly turned into a beautiful holiday house for discerning clients. The end result complements the cavernous volumes of the building whilst creating a house filled with space and light that is as cosy and enveloping in the winter as it is cool and calm in summer. The interior is a crisp combination of comfort and style with clean modern lines and an eclectic and energetic mix of traditional and contemporary themes. The central atrium grounds the house with its pale, cool plaster walls and Pierre de Bourgogne floor punctuated with a sweeping spiral stair to the bedrooms above.</p>
+          <p><a href="http://www.lafraissinede.com/" target="_blank" rel="noopener noreferrer" />www.lafraissinede.com</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="back-links"> &gt; Back to <a href="live.html">LIVE</a> / <a href="eat.html">EAT</a> / <a href="bathe.html">BATHE</a> / <a href="sleep.html">SLEEP</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

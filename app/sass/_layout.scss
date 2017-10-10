@@ -1,0 +1,19 @@
+// Utility classes
+.mb30-60 {
+  margin-bottom: 1.875rem;
+  @include media-breakpoint-up(md) {
+    margin-bottom: 3.75rem;
+  }
+}
+.mt30-60 {
+  margin-top: 1.875rem;
+  @include media-breakpoint-up(md) {
+    margin-top: 3.75rem;
+  }
+}
+.mt60-120 {
+  margin-top: 3.75rem;
+  @include media-breakpoint-up(md) {
+    margin-top: 7.5rem;
+  }
+}

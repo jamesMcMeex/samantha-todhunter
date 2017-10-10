@@ -1,0 +1,82 @@
+{% set pageTitle = "Home" %}
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            {% for image in carousel %}
+            <li data-target="#carousel" data-slide-to="{{ loop.index0 }}" {% if loop.first %} class="active" {% endif %}></li>
+            {% endfor%}
+          </ol>
+          <div class="carousel-inner">
+            {% for image in carousel %}
+            <div class="carousel-item {% if loop.first %}active{% endif %}">
+              <a href="{{image.href}}"><img class="d-block w-100" src="{{image.src}}" alt="{{image.alt}}"></a>
+            </div>
+            {% endfor %}
+          </div>
+          <img class="carousel-mask" src="img/index/carousel/carousel_mask.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <ul class="nav social-media-homepage">
+
+          <li class="nav-item"><a href="https://www.pinterest.co.uk/samantha8771/" rel="noopener noreferrer" target="_blank" name="dealer_badge_1stdibs_black_and_white"><img class="social-media-homepage__icon social-media--large" src="img/icons/pinterest.svg" alt="Samantha Todhunter on Pinterest" /></a></li>
+
+          <li class="nav-item"><a href="https://www.instagram.com/samanthatodhunterdesign/" rel="noopener noreferrer" target="_blank" name="dealer_badge_1stdibs_black_and_white"><img class="social-media-homepage__icon" src="img/icons/instagram.svg" alt="Samantha Todhunter on Instagram" /></a></li>
+
+          <li class="nav-item"><a href="https://www.1stdibs.com/design-firms/samantha-todhunter-design-ltd/" rel="noopener noreferrer" target="_blank"><img class="social-media-homepage__icon" src="http://a.1stdibscdn.com/badges/1stdibs-black_and_white@2x.png" alt="Samantha Todhunter on 1st Dibs" /></a></li>
+
+          <li class="nav-item"><img class="homes-gardens-icon" src="img/index/homes-gardens-top-100.jpg"/></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container image-grid">
+    <div class="row">
+      <div class="col-sm-6 col-lg-3 image-grid__item">
+        <h2 class="image-grid__title">Live</h2>
+        <img src="img/index/live.jpg" class="image-grid__image"/>
+        <a class="image-grid__link" href="live.html"></a>
+      </div>
+      <div class="col-sm-6 col-lg-3 image-grid__item">
+        <h2 class="image-grid__title">Eat</h2>
+        <img src="img/index/eat.jpg" class="image-grid__image"/>
+        <a class="image-grid__link" href="eat.html"></a>
+      </div>
+      <div class="col-sm-6 col-lg-3 image-grid__item">
+        <h2 class="image-grid__title">Bathe</h2>
+        <img src="img/index/bathe.jpg" class="image-grid__image"/>
+        <a class="image-grid__link" href="bathe.html"></a>
+      </div>
+      <div class="col-sm-6 col-lg-3 image-grid__item">
+        <h2 class="image-grid__title">Sleep</h2>
+        <img src="img/index/sleep.jpg" class="image-grid__image"/>
+        <a class="image-grid__link" href="sleep.html"></a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <p>Samantha Todhunter Design is a London based design studio working both at home and internationally. The Samantha Todhunter Design team create interiors that are suffused with an easy, modern glamour with a signature that fuses the luxurious and eclectic with traditional flourishes. STD’s portfolio includes work that spans interiors both large &amp; small, from town to country and that are above all, timeless. The studio is included in House &amp; Garden’s prestigious Top 100 List of interior designers and is also part of the 1st Dibs family.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+{% endblock %}

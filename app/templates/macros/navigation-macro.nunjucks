@@ -1,0 +1,36 @@
+{% macro active(activePage='Home') %}
+
+<nav class="navbar navbar-expand-xl sth-navbar">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+  <div class="collapse navbar-collapse justify-content-md-center">
+    <ul class="navbar-nav text-md-center nav-justified w-100">
+        <li class="nav-item {%if activePage == 'About' %}active{% endif %}"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item {%if activePage == 'Interiors' %}active{% endif %}"><a class="nav-link" href="interiors.html">Interiors</a></li>
+        <li class="nav-item {%if activePage == 'Bespoke' %}active{% endif %}"><a class="nav-link" href="bespoke.html">Bespoke</a></li>
+    </ul>
+  </div>
+
+  <a href="/"><img class="sth-navbar__logo d-none d-xl-inline" src="img/global/sth-logo.jpg"/></a>
+
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav text-md-center nav-justified w-100">
+        <li class="nav-item {%if activePage == 'Press' %}active{% endif %}"><a class="nav-link" href="press.html">Press</a></li>
+        <li class="nav-item {%if activePage == 'Contact' %}active{% endif %}"><a class="nav-link" href="contact.html">Contact</a></li>
+        <ul class="nav nav-fill social-media-nav">
+
+          <li class="nav-item"><a href="https://www.pinterest.co.uk/samantha8771/" rel="noopener noreferrer" target="_blank" name="dealer_badge_1stdibs_black_and_white"><img class="social-media-nav__icon" src="img/icons/pinterest.svg" alt="Samantha Todhunter on Pinterest" /></a></li>
+
+          <li class="nav-item"><a href="https://www.instagram.com/samanthatodhunterdesign/" rel="noopener noreferrer" target="_blank" name="dealer_badge_1stdibs_black_and_white"><img class="social-media-nav__icon" src="img/icons/instagram.svg" alt="Samantha Todhunter on Instagram" /></a></li>
+
+          <li class="nav-item"><a href="https://www.1stdibs.com/design-firms/samantha-todhunter-design-ltd/" rel="noopener noreferrer" target="_blank" name="dealer_badge_1stdibs_black_and_white"><img class="social-media-nav__icon" src="http://a.1stdibscdn.com/badges/1stdibs-black_and_white@2x.png" alt="Samantha Todhunter on 1st Dibs" /></a></li>
+
+        </ul>
+    </ul>
+  </div>
+</nav>
+
+{% endmacro %}

@@ -1,0 +1,16 @@
+// Global
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "variables";
+@import "fonts";
+@import "bootstrap-overrides";
+@import "layout";
+@import "typography";
+@import "flexslider-overrides";
+
+// Components
+@import "header";
+@import "footer";
+@import "navigation";
+@import "homepage-carousel";
+@import "image-grid";
+@import "social-media";

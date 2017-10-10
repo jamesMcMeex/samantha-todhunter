@@ -1,0 +1,47 @@
+{% set pageTitle = "Canada" %}
+
+{% extends "project.nunjucks" %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <div id="slider" class="flexslider">
+        <ul class="slides">
+          {% for image in canada %}
+          <li><img src="{{image.slide}}"/></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="custom-navigation">
+        <div class="custom-controls-container"></div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="row">
+        <div class="col">
+          <div id="carousel" class="flexslider">
+            <ul class="slides">
+              {% for image in canada %}
+              <li><img src="{{image.thumb}}"/></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>On the edge of a lake in impossibly beautiful surroundings, we were asked to design a relaxed, informal log cabin for long summer holidays and cosy winter months. The overall vibe is simple and pared back with dark wooden floors and crisp white walls acting as a canvas for simple furniture &amp; lighting schemes. Walls of windows looking onto the spectacular lake view are detailed with charming Chik blinds, handmade for the cabin in India.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="back-links"> &gt; Back to <a href="live.html">LIVE</a> / <a href="eat.html">EAT</a> / <a href="bathe.html">BATHE</a> / <a href="sleep.html">SLEEP</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

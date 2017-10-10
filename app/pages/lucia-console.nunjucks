@@ -1,0 +1,43 @@
+{% set pageTitle = "The Lucia Console" %}
+
+{% extends "project.nunjucks" %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <div id="slider" class="flexslider">
+        <ul class="slides">
+          {% for image in lucia_console %}
+          <li><img src="{{image.slide}}"/></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="custom-navigation">
+        <div class="custom-controls-container"></div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="row">
+        <div class="col">
+          <div id="carousel" class="flexslider">
+            <ul class="slides">
+              {% for image in lucia_console %}
+              <li><img src="{{image.thumb}}"/></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>The go anywhere staple of any interior wardrobe, the Parson’s table has long been a favourite. We custom make to any size and finish in a crisp glossy finish. Fabulous in hallways always but anywhere that needs a surface that doesn't take charge but simply blends in to any interior scheme. The Lucia can be adapted to a sofa table, end table and coffee table and desk.</p>
+          <p>The Lucia Console is available to order through our studio. Please email <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
