@@ -1,0 +1,48 @@
+{% set pageTitle = "Tufnell Park, London" %}
+
+{% extends "project.nunjucks" %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <div id="slider" class="flexslider">
+        <ul class="slides">
+          {% for image in tufnell_park %}
+          <li><img src="{{image.slide}}"/></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="custom-navigation">
+        <div class="custom-controls-container"></div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="row">
+        <div class="col">
+          <div id="carousel" class="flexslider">
+            <ul class="slides">
+              {% for image in tufnell_park %}
+              <li><img src="{{image.thumb}}"/></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>Our clients wanted a complete facelift for their living room in a classic London townhouse and also a fresh take on a fun sitting room for their young daughter. Glossy emerald walls &amp; joinery replaced a previously dull colour scheme. Rich sapphire mohair velvet upholstery is mixed with a bespoke ombre rug  and a graphic print on the curtains ties the scheme together.</p>
+          <p>In their daughter’s  sitting room we devised a built in banquette with masses of storage. Fun velvet cushions with Turkish corners and pompoms add a lively touch to the scheme.  A clean modern extension in the kitchen is a crisp foil to the classic original features of the house and creates a light and airy family kitchen perfect for entertaining.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="back-links"> &gt; Back to <a href="live.html">LIVE</a> / <a href="eat.html">EAT</a> / <a href="bathe.html">BATHE</a> / <a href="sleep.html">SLEEP</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
