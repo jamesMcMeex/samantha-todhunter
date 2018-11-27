@@ -295,6 +295,11 @@
     }
   ],
   "bespoke": [{
+      "alt": "The TC Table",
+      "href": "tc-table.html",
+      "src": "img/bespoke/07-bespoke-sq.jpg"
+    },
+    {
       "alt": "The Alexander Stool",
       "href": "alexander-stool.html",
       "src": "img/bespoke/01-bespoke-sq.jpg"
@@ -590,71 +595,75 @@
       "slide": "img/press/decor_magazine_fall_winter_2013_Page_9.jpg"
     }
   ],
-  "eat": [
-    {
+  "eat": [{
       "alt": " ",
-      "href": "kensington.html",
+      "href": "tufnell-park.html",
       "src": "img/eat/01-eat-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "aspen.html",
+      "href": "kensington.html",
       "src": "img/eat/02-eat-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "south-of-france.html",
+      "href": "aspen.html",
       "src": "img/eat/03-eat-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "canada.html",
+      "href": "south-of-france.html",
       "src": "img/eat/04-eat-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "notting-hill.html",
+      "href": "canada.html",
       "src": "img/eat/05-eat-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "maida-vale.html",
+      "href": "notting-hill.html",
       "src": "img/eat/06-eat-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "bayswater.html",
+      "href": "maida-vale.html",
       "src": "img/eat/07-eat-sq.jpg"
     },
     {
-        "alt": " ",
-        "href": "aspen.html",
-        "src": "img/eat/08-eat-sq.jpg"
+      "alt": " ",
+      "href": "bayswater.html",
+      "src": "img/eat/08-eat-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "oxfordshire.html",
+      "href": "aspen.html",
       "src": "img/eat/09-eat-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "battersea.html",
+      "href": "oxfordshire.html",
       "src": "img/eat/010-eat-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "isle-of-wight.html",
+      "href": "battersea.html",
       "src": "img/eat/011-eat-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "chicago.html",
+      "href": "isle-of-wight.html",
       "src": "img/eat/012-eat-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "west-sussex.html",
+      "href": "chicago.html",
       "src": "img/eat/013-eat-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "href": "west-sussex.html",
+      "src": "img/eat/014-eat-sq.jpg"
     }
   ],
   "hg_aug_2010": [{
@@ -868,9 +877,10 @@
     }
   ],
 
-  "live": [{
+  "live": [
+    {
       "alt": " ",
-      "href": "aspen.html",
+      "href": "tufnell-park.html",
       "src": "img/live/01-live-sq.jpg"
     },
     {
@@ -880,63 +890,68 @@
     },
     {
       "alt": " ",
-      "href": "south-of-france.html",
+      "href": "aspen.html",
       "src": "img/live/03-live-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "notting-hill.html",
+      "href": "south-of-france.html",
       "src": "img/live/04-live-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "maida-vale.html",
+      "href": "notting-hill.html",
       "src": "img/live/05-live-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "west-sussex.html",
+      "href": "maida-vale.html",
       "src": "img/live/06-live-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "kensington.html",
+      "href": "west-sussex.html",
       "src": "img/live/07-live-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "oxfordshire.html",
+      "href": "kensington.html",
       "src": "img/live/08-live-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "notting-hill.html",
+      "href": "oxfordshire.html",
       "src": "img/live/09-live-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "battersea.html",
+      "href": "notting-hill.html",
       "src": "img/live/010-live-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "isle-of-wight.html",
+      "href": "battersea.html",
       "src": "img/live/011-live-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "chicago.html",
+      "href": "isle-of-wight.html",
       "src": "img/live/012-live-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "chelsea.html",
+      "href": "chicago.html",
       "src": "img/live/013-live-sq.jpg"
     },
     {
       "alt": " ",
-      "href": "canada.html",
+      "href": "chelsea.html",
       "src": "img/live/014-live-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "href": "canada.html",
+      "src": "img/live/015-live-sq.jpg"
     }
   ],
   "lucia_console": [{
@@ -1200,8 +1215,7 @@
       "src": "img/press/grid-images/eoc-cover-sq.jpg"
     }
   ],
-  "sleep": [
-    {
+  "sleep": [{
       "alt": " ",
       "href": "aspen.html",
       "src": "img/sleep/01-sleep-sq.jpg"
@@ -1227,10 +1241,10 @@
       "src": "img/sleep/05-sleep-sq.jpg"
     },
     {
-        "alt": " ",
-        "href": "notting-hill.html",
-        "src": "img/sleep/06-sleep-sq.jpg"
-      },
+      "alt": " ",
+      "href": "notting-hill.html",
+      "src": "img/sleep/06-sleep-sq.jpg"
+    },
     {
       "alt": " ",
       "href": "kensington.html",
@@ -1355,10 +1369,9 @@
     }
   ],
   "eoc": [{
-      "alt": "Encyclopedia of Curtains",
-      "slide": "img/press/eoc-cover.jpg"
-    }
-  ],
+    "alt": "Encyclopedia of Curtains",
+    "slide": "img/press/eoc-cover.jpg"
+  }],
   "west_sussex": [{
       "alt": " ",
       "slide": "img/projects/west-sussex/01-west-sussex.jpg",
@@ -1454,5 +1467,34 @@
       "slide": "img/projects/west-sussex/019-west-sussex.jpg",
       "thumb": "img/projects/west-sussex/019-west-sussex-sq.jpg"
     }
-  ]
+  ],
+  "tufnell_park": [{
+    "alt": " ",
+    "slide": "img/projects/tufnell-park/01-tp.jpg",
+    "thumb": "img/projects/tufnell-park/01-tp-sq.jpg"
+  }, {
+    "alt": " ",
+    "slide": "img/projects/tufnell-park/02-tp.jpg",
+    "thumb": "img/projects/tufnell-park/02-tp-sq.jpg"
+  }, {
+    "alt": " ",
+    "slide": "img/projects/tufnell-park/03-tp.jpg",
+    "thumb": "img/projects/tufnell-park/03-tp-sq.jpg"
+  }, {
+    "alt": " ",
+    "slide": "img/projects/tufnell-park/04-tp.jpg",
+    "thumb": "img/projects/tufnell-park/04-tp-sq.jpg"
+  }, {
+    "alt": " ",
+    "slide": "img/projects/tufnell-park/05-tp.jpg",
+    "thumb": "img/projects/tufnell-park/05-tp-sq.jpg"
+  }, {
+    "alt": " ",
+    "slide": "img/projects/tufnell-park/06-tp.jpg",
+    "thumb": "img/projects/tufnell-park/06-tp-sq.jpg"
+  }, {
+    "alt": " ",
+    "slide": "img/projects/tufnell-park/07-tp.jpg",
+    "thumb": "img/projects/tufnell-park/07-tp-sq.jpg"
+  }]
 }
