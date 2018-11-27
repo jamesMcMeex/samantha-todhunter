@@ -1,14 +1,15 @@
 {
-  "name": "aegon_exercise",
-  "version": "0.0.1",
-  "description": "website for massless",
-  "main": "index.html",
-  "repository": "https://jamesmcmeex@bitbucket.org/jamesmcmeex/aegon_exercise.git",
+  "name": "samantha-todhunter",
+  "version": "1.0.0",
+  "description": "Samantha Todhunter portfolio website",
+  "main": "gulpfile.js",
+  "repository": "git@bitbucket.org:jamesmcmeex/samantha-todhunter.git",
   "author": "jamesMcMeex <james@jamesmcmeeken.com>",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.18.8",
     "del": "^2.2.2",
+    "eslint": "^5.9.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-clean-css": "^3.9.0",
@@ -22,7 +23,7 @@
     "pump": "^1.0.2"
   },
   "dependencies": {
-    "bootstrap": "^bootstrap@4.0.0-beta",
+    "bootstrap": "^4.0.0",
     "flexslider": "^2.6.4",
     "jquery": "^3.2.1",
     "popper.js": "^1.12.4"
