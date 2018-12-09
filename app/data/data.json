@@ -1496,5 +1496,10 @@
     "alt": " ",
     "slide": "img/projects/tufnell-park/07-tp.jpg",
     "thumb": "img/projects/tufnell-park/07-tp-sq.jpg"
-  }]
+  }],
+  "tc_table": [{
+      "alt": " ",
+      "slide": "img/bespoke/tc-table/01-tc-table-sq.jpg"
+    }
+  ]
 }

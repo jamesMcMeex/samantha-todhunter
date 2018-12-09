@@ -1,0 +1,33 @@
+
+{% set pageTitle = "TC Table" %}
+
+{% extends "project.nunjucks" %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <div id="slider" class="flexslider">
+        <ul class="slides">
+          {% for image in tc_table %}
+          <li><img src="{{image.slide}}"/></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="custom-navigation">
+        <div class="custom-controls-container"></div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="row">
+        <div class="col">
+          <p>Designed to house a clients prized vinyl collection and turntables we created a glossy console with a blue acrylic lid that lifts off when the DJ wants to play and then for day to day use, it doubles as a  console table. The TC table can be adapted to suit all your prized collections and possessions whilst doubling as a uniquely classic furniture staple.</p>
+          <p>The TC Table is available to order through our studio. Please email <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
