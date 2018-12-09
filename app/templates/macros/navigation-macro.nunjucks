@@ -9,7 +9,17 @@
   <div class="collapse navbar-collapse justify-content-md-center">
     <ul class="navbar-nav text-md-center nav-justified w-100">
         <li class="nav-item {%if activePage == 'About' %}active{% endif %}"><a class="nav-link" href="about.html">About</a></li>
-        <li class="nav-item {%if activePage == 'Interiors' %}active{% endif %}"><a class="nav-link" href="interiors.html">Interiors</a></li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="interiors.html" id="interiorsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Interiors
+        </a>
+        <div class="dropdown-menu" aria-labelledby="interiorsDropdown">
+          <a class="dropdown-item" href="live.html">Live</a>
+          <a class="dropdown-item" href="eat.html">Eat</a>
+          <a class="dropdown-item" href="bathe.html">Bathe</a>
+          <a class="dropdown-item" href="sleep.html">Sleep</a>
+        </div>
+      </li>
         <li class="nav-item {%if activePage == 'Bespoke' %}active{% endif %}"><a class="nav-link" href="bespoke.html">Bespoke</a></li>
     </ul>
   </div>

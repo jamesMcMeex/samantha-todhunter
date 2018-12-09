@@ -33,9 +33,7 @@
   }
 
   .dropdown-toggle {
-    &:after {
-      display: none !important;
-    }
+    min-width: 150px;
   }
 
   .dropdown-item {
