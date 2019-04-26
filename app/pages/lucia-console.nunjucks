@@ -1,8 +1,10 @@
 {% set pageTitle = "The Lucia Console" %}
+{% set sketch = "lucia" %}
 
 {% extends "project.nunjucks" %}
 
 {% block content %}
+{% import 'macros/sketch-image.nunjucks' as sk %}
 
 <div class="container">
   <div class="row">
@@ -32,8 +34,14 @@
       </div>
       <div class="row">
         <div class="col">
-          <p>The go anywhere staple of any interior wardrobe, the Parson’s table has long been a favourite. We custom make to any size and finish in a crisp glossy finish. Fabulous in hallways always but anywhere that needs a surface that doesn't take charge but simply blends in to any interior scheme. The Lucia can be adapted to a sofa table, end table and coffee table and desk.</p>
-          <p>The Lucia Console is available to order through our studio. Please email <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a></p>
+          <p>The go anywhere staple of any interior wardrobe, this parson’s table has long been a favourite of ours. Fabulous in hallways and anywhere that needs a surface that doesn’t take charge but simply blends in to the interior scheme. The Lucia can be adapted to a sofa table, end table and coffee table or desk. The Lucia can be adjusted to any size and finish, our personal favourite is a crisp high gloss.</p>
+
+          <p>The Lucia Console is available to order through our studio. For more information on this iece including pricing, dimensions and finish options please email <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          {{ sk.sketchImage(sketch) }}
         </div>
       </div>
     </div>

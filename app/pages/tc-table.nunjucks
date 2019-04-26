@@ -1,9 +1,11 @@
 
 {% set pageTitle = "TC Table" %}
+{% set sketch = "tc" %}
 
 {% extends "project.nunjucks" %}
 
 {% block content %}
+{% import 'macros/sketch-image.nunjucks' as sk %}
 
 <div class="container">
   <div class="row">
@@ -22,8 +24,14 @@
     <div class="col-md-5">
       <div class="row">
         <div class="col">
-          <p>Designed to house a clients prized vinyl collection and turntables we created a glossy console with a blue acrylic lid that lifts off when the DJ wants to play and then for day to day use, it doubles as a  console table. The TC table can be adapted to suit all your prized collections and possessions whilst doubling as a uniquely classic furniture staple.</p>
-          <p>The TC Table is available to order through our studio. Please email <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a></p>
+          <p>Designed to house a client’s prized vinyl collection and turntables, we designed a glossy console with a blue acrylic lid that lifts off for use and doubles as a console table. The TC table can be adapted to suit all prized vinyl collections and equipment whilst doubling as a uniquely classic furniture staple.</p>
+
+          <p>The TC Table is available to order through our studio.For more information on this piece including pricing, dimensions and finish options please email <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          {{ sk.sketchImage(sketch) }}
         </div>
       </div>
     </div>

@@ -1,8 +1,10 @@
 {% set pageTitle = "The Alexander Stool" %}
+{% set sketch = "alexander" %}
 
 {% extends "project.nunjucks" %}
 
 {% block content %}
+{% import 'macros/sketch-image.nunjucks' as sk %}
 
 <div class="container">
   <div class="row">
@@ -32,8 +34,14 @@
       </div>
       <div class="row">
         <div class="col">
-          <p>Another classically inspired piece that works beautifully under the Lucia console as extra seating in a drawing room, side by side at the end of a bed or in a dressing room, - it is the perfect extra piece in any room scheme.</p>
-          <p>The Alexander Stool is available to order through our studio. Please email <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a></p>
+          <p>Another classically inspired piece that works in any space, particularly beautiful under the Lucia console and fitting neatly under the Warborough as extra seating. The Alexander can stand alone or can be paired side by side at the end of a bed or in a dressing room- this stool is the perfect go to solution.</p>
+
+          <p>The Alexander Stool is available to order through our studio. For more information on this piece including pricing, dimensions and finish options please email <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          {{ sk.sketchImage(sketch) }}
         </div>
       </div>
     </div>

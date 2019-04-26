@@ -1,0 +1,3 @@
+{% macro sketchImage(source) %}
+  <img src="img/bespoke/sketch-{{ source }}.jpg" class="d-block mx-auto img-fluid"/>
+{% endmacro %}

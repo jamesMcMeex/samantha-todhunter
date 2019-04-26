@@ -1,8 +1,10 @@
 {% set pageTitle = "Carla Daybed" %}
+{% set sketch = "carla-daybed" %}
 
 {% extends "project.nunjucks" %}
 
 {% block content %}
+{% import 'macros/sketch-image.nunjucks' as sk %}
 
 <div class="container">
   <div class="row">
@@ -32,8 +34,14 @@
       </div>
       <div class="row">
         <div class="col">
-          <p>A key piece for a small room that works as a quiet retreat or study for most of the time and then doubles up as a spare room for guests when needed. The seat cushion can be a mattress and it can come with or without a back, as a sofa bed or simply as a daybed. </p>
-          <p>The Carla Daybed is available to order through our studio. Please email <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a></p>
+          <p>This key piece was conceived for a small room primarily purposed as a quiet retreat or study area and doubling up as a spare room for guests when needed. We designed the Carla as a stylish day bed with practical features- it’s seat cushion can be a mattress and it can be made with or without a back, as a full sofa bed or simply as a daybed.</p>
+
+          <p>The Carla Daybed is available to order through our studio. For more information on this piece including pricing, dimensions and finish options please email <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          {{ sk.sketchImage(sketch) }}
         </div>
       </div>
     </div>

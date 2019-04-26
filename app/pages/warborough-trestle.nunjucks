@@ -1,8 +1,10 @@
 {% set pageTitle = "The Warborough Trestle" %}
+{% set sketch = "warborough" %}
 
 {% extends "project.nunjucks" %}
 
 {% block content %}
+{% import 'macros/sketch-image.nunjucks' as sk %}
 
   <div class="container">
     <div class="row">
@@ -33,11 +35,16 @@
         <div class="row">
           <div class="col">
             <p>Based on a 1940’s upholstered trestle spotted in Isle sur la Sorgue many moons ago this is a longstanding favourite that works equally well as a dining table, desk, dressing table or hall table. The Warborough Trestle can be upholstered in leather or fabric and is finished off with smart nailing detail.</p>
-            <p>The Warborough Trestle is available to order through our studio. Please email
-              <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a>
+
+            <p>The Warborough Trestle is available to order through our studio. For more information on this piece including pricing, dimensions and finish options please email <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a>
             </p>
           </div>
         </div>
+      <div class="row">
+        <div class="col">
+          {{ sk.sketchImage(sketch) }}
+        </div>
+      </div>
       </div>
     </div>
   </div>

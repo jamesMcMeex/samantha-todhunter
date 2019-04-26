@@ -1,9 +1,10 @@
 {% set pageTitle = "Napoleon Bench" %}
+{% set sketch = "napoleon" %}
 
 {% extends "project.nunjucks" %}
 
 {% block content %}
-
+{% import 'macros/sketch-image.nunjucks' as sk %}
 
 <div class="container">
   <div class="row">
@@ -33,13 +34,18 @@
       </div>
       <div class="row">
         <div class="col">
-          <p>This metal framed bench has been enormously popular with its neat pin tucked upholstery detail and pared down lines - another go-anywhere piece that has become a staple of STD’s bespoke collection.</p>
-          <p>The Napoleon Bench is available to order through our studio. Please email <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a></p>
+          <p>This metal framed bench has been enormously popular with our clients- its dimensions are scalable making it a smart and easy seating solution. The Napoleon’s neat pin tucked upholstery detail and pared down lines illustrate a classic elegance, making it a highly versatile piece and an essential within our bespoke collection.</p>
+
+          <p>The Napoleon Bench is available to order through our studio. For more information on this piece including pricing, dimensions and finish options please email <a href="mailto:studio@samanthatodhunter.com">studio@samanthatodhunter.com</a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          {{ sk.sketchImage(sketch) }}
         </div>
       </div>
     </div>
   </div>
 </div>
-
 
 {% endblock %}

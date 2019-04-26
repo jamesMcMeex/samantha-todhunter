@@ -13,3 +13,9 @@
 </div>
 
 {% endblock %}
+
+{% block sketch %}
+
+<img src="img/besoke/sketch-{{ sketch }}.jpg" class="img-fluid"/>
+
+{% endblock %}

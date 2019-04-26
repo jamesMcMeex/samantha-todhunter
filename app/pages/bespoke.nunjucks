@@ -1,4 +1,5 @@
 {% set pageTitle = "Bespoke" %}
+{% set pageStrapline = "THE SAMANTHA TODHUNTER BESPOKE COLLECTION is the natural evolution of pieces designed to complement the studio’s interiors projects, echoing our ethos of the relaxed and informal paired with dashes of glamour and luxe, and which can be used across diverse rooms, styles and living arrangements. Sam drew on her understanding of  proportion, comfort and elegance to produce a capsule collection of easy, go-anywhere essentials including glossy consoles, daybeds, upholstered trestles and sleek footstools." %}
 
 {% extends "collection.nunjucks" %}
 
@@ -10,8 +11,9 @@
     {% for image in bespoke %}
     <div class="col-sm-6 col-lg-4 image-grid__item">
       <a href="{{image.href}}">
-        <img src="{{image.src}}" class="image-grid__image" alt="{{image.alt}}"/>
+        <img src="{{image.src}}" class="image-grid__image" alt="{{image.title}}"/>
       </a>
+      <h2 class="image-grid__stacked-title text-center font-avenir-light">{{image.title}}</h2>
     </div>
     {% endfor %}
 

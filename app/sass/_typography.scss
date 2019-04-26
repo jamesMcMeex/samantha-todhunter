@@ -18,11 +18,12 @@ p {
 }
 
 a {
-  text-decoration: none !important;
+  text-decoration: underline;
   color: #000000;
 
   &:hover {
     color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
   }
 }
 
@@ -66,4 +67,8 @@ a {
       color: #000000;
     }
   }
+}
+
+.font-avenir-light {
+  font-family: $avenirLight;
 }

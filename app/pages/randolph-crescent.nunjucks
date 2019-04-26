@@ -1,0 +1,42 @@
+{% set pageTitle = "Randolph Crescent" %}
+
+{% extends "project.nunjucks" %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <div id="slider" class="flexslider">
+        <ul class="slides">
+          {% for image in randolph %}
+          <li><img src="{{image.slide}}"/></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="custom-navigation">
+        <div class="custom-controls-container"></div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="row">
+        <div class="col">
+          <div id="carousel" class="flexslider">
+            <ul class="slides">
+              {% for image in randolph %}
+              <li><img src="{{image.thumb}}"/></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>Our brief was to create a light filled and open space which was at once comfortable and welcoming but also serene and elegant. For our client and her family, after years of living in Hong Kong high rises, the notion of a wide open and airy apartment leading on to a terrace was essential. We completely stripped out the apartment exposing previously hidden proportion and volume. Wide oak boards and white walls were used throughout to link the spaces together and the colour palette is soft but not dull; using calm tones interspersed with shots of freshness. The master bedroom is serene and tranquil with billowing linen curtains and the study is a cocoon of warm toned oak joinery, a rich bespoke tangerine carpet and luxurious mohair velvet upholstery. The kitchen was designed in house. We opted for a soft dirty pink for the kitchen cabinetry paired with knurled bronze hardware. This quirky combination is a lovely foil to the modernity of the dining table and light fixture above.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
