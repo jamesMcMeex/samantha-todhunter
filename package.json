@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Samantha Todhunter portfolio website",
   "main": "gulpfile.js",
+  "homepage": "http://www.samanthatodhunter.com/",
   "repository": "git@bitbucket.org:jamesmcmeex/samantha-todhunter.git",
   "author": "jamesMcMeex <james@jamesmcmeeken.com>",
   "license": "MIT",
