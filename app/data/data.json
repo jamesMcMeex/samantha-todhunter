@@ -210,6 +210,11 @@
       "alt": " ",
       "href": "randolph-crescent.html",
       "src": "img/bathe/013-bathe-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "href": "randolph-crescent.html",
+      "src": "img/bathe/014-bathe-sq.jpg"
     }
   ],
   "battersea": [{
@@ -680,6 +685,11 @@
       "alt": " ",
       "href": "west-sussex.html",
       "src": "img/eat/014-eat-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "href": "randolph-crescent.html",
+      "src": "img/eat/017-eat-sq.jpg"
     }
   ],
   "hg_aug_2010": [{
@@ -983,6 +993,11 @@
       "alt": " ",
       "href": "canada.html",
       "src": "img/live/015-live-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "href": "randolph-crescent.html",
+      "src": "img/live/019-live-sq.jpg"
     }
   ],
   "lucia_console": [{
@@ -1296,6 +1311,31 @@
       "alt": " ",
       "slide": "img/projects/randolph-crescent/010-randolph.jpg",
       "thumb": "img/projects/randolph-crescent/010-randolph-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/randolph-crescent/011-randolph.jpg",
+      "thumb": "img/projects/randolph-crescent/011-randolph-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/randolph-crescent/012-randolph.jpg",
+      "thumb": "img/projects/randolph-crescent/012-randolph-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/randolph-crescent/013-randolph.jpg",
+      "thumb": "img/projects/randolph-crescent/013-randolph-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/randolph-crescent/014-randolph.jpg",
+      "thumb": "img/projects/randolph-crescent/014-randolph-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/randolph-crescent/015-randolph.jpg",
+      "thumb": "img/projects/randolph-crescent/015-randolph-sq.jpg"
     }
   ],
   "sleep": [{

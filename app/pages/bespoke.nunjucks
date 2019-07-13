@@ -6,7 +6,7 @@
 {% block content %}
 
 <div class="container image-grid">
-  <div class="row">
+  <div class="row justify-content-center">
 
     {% for image in bespoke %}
     <div class="col-sm-6 col-lg-4 image-grid__item">
