@@ -1,5 +1,6 @@
 {
-  "alexander_stool": [{
+  "alexander_stool": [
+    {
       "alt": " ",
       "slide": "img/bespoke/alexander-stool/01-alexander-stool.jpg",
       "thumb": "img/bespoke/alexander-stool/01-alexander-stool-sq.jpg"
@@ -10,7 +11,8 @@
       "thumb": "img/bespoke/alexander-stool/02-alexander-stool-sq.jpg"
     }
   ],
-  "aspen": [{
+  "aspen": [
+    {
       "alt": " ",
       "slide": "img/projects/aspen/01-aspen.jpg",
       "thumb": "img/projects/aspen/01-aspen-sq.jpg"
@@ -146,7 +148,8 @@
       "thumb": "img/projects/aspen/027-aspen-sq.jpg"
     }
   ],
-  "bathe": [{
+  "bathe": [
+    {
       "alt": " ",
       "href": "aspen.html",
       "src": "img/bathe/01-bathe-sq.jpg"
@@ -217,7 +220,8 @@
       "src": "img/bathe/014-bathe-sq.jpg"
     }
   ],
-  "battersea": [{
+  "battersea": [
+    {
       "alt": " ",
       "slide": "img/projects/battersea/01-battersea.jpg",
       "thumb": "img/projects/battersea/01-battersea-sq.jpg"
@@ -273,7 +277,8 @@
       "thumb": "img/projects/battersea/011-battersea-sq.jpg"
     }
   ],
-  "bayswater": [{
+  "bayswater": [
+    {
       "alt": " ",
       "slide": "img/projects/bayswater/01-bayswater.jpg",
       "thumb": "img/projects/bayswater/01-bayswater-sq.jpg"
@@ -341,7 +346,8 @@
       "src": "img/bespoke/06-bespoke-sq.jpg"
     }
   ],
-  "canada": [{
+  "canada": [
+    {
       "alt": " ",
       "slide": "img/projects/canada/01-canada.jpg",
       "thumb": "img/projects/canada/01-canada-sq.jpg"
@@ -362,7 +368,8 @@
       "thumb": "img/projects/canada/04-canada-sq.jpg"
     }
   ],
-  "carla_daybed": [{
+  "carla_daybed": [
+    {
       "alt": " ",
       "slide": "img/bespoke/carla-daybed/01-carla-daybed.jpg",
       "thumb": "img/bespoke/carla-daybed/01-carla-daybed-sq.jpg"
@@ -383,7 +390,8 @@
       "thumb": "img/bespoke/carla-daybed/04-carla-daybed-sq.jpg"
     }
   ],
-  "carousel": [{
+  "carousel": [
+    {
       "alt": "Slide 1",
       "href": "live.html",
       "src": "img/index/carousel/h1.jpg"
@@ -424,7 +432,8 @@
       "src": "img/index/carousel/h8.jpg"
     }
   ],
-  "cath": [{
+  "cath": [
+    {
       "alt": "Page 1",
       "slide": "img/press/cath_oct_2015_0.jpg"
     },
@@ -441,7 +450,8 @@
       "slide": "img/press/cath_oct_2015_3.jpg"
     }
   ],
-  "chelsea": [{
+  "chelsea": [
+    {
       "alt": " ",
       "slide": "img/projects/chelsea/01-chelsea.jpg",
       "thumb": "img/projects/chelsea/01-chelsea-sq.jpg"
@@ -477,7 +487,8 @@
       "thumb": "img/projects/chelsea/07-chelsea-sq.jpg"
     }
   ],
-  "chicago": [{
+  "chicago": [
+    {
       "alt": " ",
       "slide": "img/projects/chicago/01-chicago.jpg",
       "thumb": "img/projects/chicago/01-chicago-sq.jpg"
@@ -538,7 +549,8 @@
       "thumb": "img/projects/chicago/012-chicago-sq.jpg"
     }
   ],
-  "custom_work": [{
+  "custom_work": [
+    {
       "alt": " ",
       "slide": "img/bespoke/custom-work/01-custom-work.jpg",
       "thumb": "img/bespoke/custom-work/01-custom-work-sq.jpg"
@@ -569,7 +581,8 @@
       "thumb": "img/bespoke/custom-work/06-custom-work-sq.jpg"
     }
   ],
-  "decor_2013": [{
+  "decor_2013": [
+    {
       "alt": "Page 1",
       "slide": "img/press/decor_magazine_fall_winter_2013_Page_1.jpg"
     },
@@ -606,7 +619,8 @@
       "slide": "img/press/decor_magazine_fall_winter_2013_Page_9.jpg"
     }
   ],
-  "eat": [{
+  "eat": [
+    {
       "alt": " ",
       "href": "tufnell-park.html",
       "src": "img/eat/01-eat-sq.jpg"
@@ -692,7 +706,8 @@
       "src": "img/eat/017-eat-sq.jpg"
     }
   ],
-  "hg_aug_2010": [{
+  "hg_aug_2010": [
+    {
       "alt": "Page 1",
       "slide": "img/press/hg_2010_Page_0.jpg"
     },
@@ -729,7 +744,8 @@
       "slide": "img/press/hg_2010_Page_8.jpg"
     }
   ],
-  "hg_jul_2015": [{
+  "hg_jul_2015": [
+    {
       "alt": "Page 1",
       "slide": "img/press/hg_jul_2015_page_0.jpg"
     },
@@ -742,7 +758,8 @@
       "slide": "img/press/hg_jul_2015_page_2.jpg"
     }
   ],
-  "hg_oct_2013": [{
+  "hg_oct_2013": [
+    {
       "alt": "Page 1",
       "slide": "img/press/hg_oct_2013_Page_0.jpg"
     },
@@ -763,7 +780,8 @@
       "slide": "img/press/hg_oct_2013_Page_4.jpg"
     }
   ],
-  "hg_sep_2014": [{
+  "hg_sep_2014": [
+    {
       "alt": "Page 1",
       "slide": "img/press/hg_sep_2014_Page_1.jpg"
     },
@@ -776,11 +794,14 @@
       "slide": "img/press/hg_sep_2014_Page_3.jpg"
     }
   ],
-  "hgds_feb_2013": [{
-    "alt": "Page 1",
-    "slide": "img/press/hg-designer-secrets-feb-2013.jpg"
-  }],
-  "isle_of_wight": [{
+  "hgds_feb_2013": [
+    {
+      "alt": "Page 1",
+      "slide": "img/press/hg-designer-secrets-feb-2013.jpg"
+    }
+  ],
+  "isle_of_wight": [
+    {
       "alt": " ",
       "slide": "img/projects/isle-of-wight/01-isle-of-wight.jpg",
       "thumb": "img/projects/isle-of-wight/01-isle-of-wight-sq.jpg"
@@ -841,7 +862,8 @@
       "thumb": "img/projects/isle-of-wight/012-isle-of-wight-sq.jpg"
     }
   ],
-  "kensington": [{
+  "kensington": [
+    {
       "alt": " ",
       "slide": "img/projects/kensington/01-kensington.jpg",
       "thumb": "img/projects/kensington/01-kensington-sq.jpg"
@@ -1000,7 +1022,8 @@
       "src": "img/live/019-live-sq.jpg"
     }
   ],
-  "lucia_console": [{
+  "lucia_console": [
+    {
       "alt": " ",
       "slide": "img/bespoke/lucia-console/01-lucia-console.jpg",
       "thumb": "img/bespoke/lucia-console/01-lucia-console-sq.jpg"
@@ -1041,7 +1064,8 @@
       "thumb": "img/bespoke/lucia-console/08-lucia-console-sq.jpg"
     }
   ],
-  "maida_vale": [{
+  "maida_vale": [
+    {
       "alt": " ",
       "slide": "img/projects/maida-vale/01-maida-vale.jpg",
       "thumb": "img/projects/maida-vale/01-maida-vale-sq.jpg"
@@ -1072,7 +1096,8 @@
       "thumb": "img/projects/maida-vale/06-maida-vale-sq.jpg"
     }
   ],
-  "napoleon_bench": [{
+  "napoleon_bench": [
+    {
       "alt": " ",
       "slide": "img/bespoke/napoleon-bench/01-napoleon-bench.jpg",
       "thumb": "img/bespoke/napoleon-bench/01-napoleon-bench-sq.jpg"
@@ -1091,9 +1116,15 @@
       "alt": " ",
       "slide": "img/bespoke/napoleon-bench/04-napoleon-bench.jpg",
       "thumb": "img/bespoke/napoleon-bench/04-napoleon-bench-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/bespoke/napoleon-bench/05-napoleon-bench.jpg",
+      "thumb": "img/bespoke/napoleon-bench/05-napoleon-bench-sq.jpg"
     }
   ],
-  "notting_hill": [{
+  "notting_hill": [
+    {
       "alt": " ",
       "slide": "img/projects/notting-hill/01-notting-hill.jpg",
       "thumb": "img/projects/notting-hill/01-notting-hill-sq.jpg"
@@ -1164,7 +1195,8 @@
       "thumb": "img/projects/notting-hill/014-notting-hill-sq.jpg"
     }
   ],
-  "oxfordshire": [{
+  "oxfordshire": [
+    {
       "alt": " ",
       "slide": "img/projects/oxfordshire/01-oxfordshire.jpg",
       "thumb": "img/projects/oxfordshire/01-oxfordshire-sq.jpg"
@@ -1215,7 +1247,8 @@
       "thumb": "img/projects/oxfordshire/010-oxfordshire-sq.jpg"
     }
   ],
-  "press": [{
+  "press": [
+    {
       "alt": "Country & Town House - October 2015",
       "href": "country-and-town-house-october-2015.html",
       "src": "img/press/grid-images/cath-oct-2015.png"
@@ -1338,7 +1371,8 @@
       "thumb": "img/projects/randolph-crescent/015-randolph-sq.jpg"
     }
   ],
-  "sleep": [{
+  "sleep": [
+    {
       "alt": " ",
       "href": "aspen.html",
       "src": "img/sleep/01-sleep-sq.jpg"
@@ -1424,7 +1458,8 @@
       "src": "img/sleep/016-sleep-sq.jpg"
     }
   ],
-  "south_of_france": [{
+  "south_of_france": [
+    {
       "alt": " ",
       "slide": "img/projects/south-of-france/01-south-of-france.jpg",
       "thumb": "img/projects/south-of-france/01-south-of-france-sq.jpg"
@@ -1490,7 +1525,8 @@
       "thumb": "img/projects/south-of-france/013-south-of-france-sq.jpg"
     }
   ],
-  "warborough_trestle": [{
+  "warborough_trestle": [
+    {
       "alt": " ",
       "slide": "img/bespoke/warborough-trestle/01-warborough-trestle.jpg",
       "thumb": "img/bespoke/warborough-trestle/01-warborough-trestle-sq.jpg"
@@ -1506,11 +1542,14 @@
       "thumb": "img/bespoke/warborough-trestle/03-warborough-trestle-sq.jpg"
     }
   ],
-  "eoc": [{
-    "alt": "Encyclopedia of Curtains",
-    "slide": "img/press/eoc-cover.jpg"
-  }],
-  "west_sussex": [{
+  "eoc": [
+    {
+      "alt": "Encyclopedia of Curtains",
+      "slide": "img/press/eoc-cover.jpg"
+    }
+  ],
+  "west_sussex": [
+    {
       "alt": " ",
       "slide": "img/projects/west-sussex/01-west-sussex.jpg",
       "thumb": "img/projects/west-sussex/01-west-sussex-sq.jpg"
@@ -1606,36 +1645,80 @@
       "thumb": "img/projects/west-sussex/019-west-sussex-sq.jpg"
     }
   ],
-  "tufnell_park": [{
-    "alt": " ",
-    "slide": "img/projects/tufnell-park/01-tp.jpg",
-    "thumb": "img/projects/tufnell-park/01-tp-sq.jpg"
-  }, {
-    "alt": " ",
-    "slide": "img/projects/tufnell-park/02-tp.jpg",
-    "thumb": "img/projects/tufnell-park/02-tp-sq.jpg"
-  }, {
-    "alt": " ",
-    "slide": "img/projects/tufnell-park/03-tp.jpg",
-    "thumb": "img/projects/tufnell-park/03-tp-sq.jpg"
-  }, {
-    "alt": " ",
-    "slide": "img/projects/tufnell-park/04-tp.jpg",
-    "thumb": "img/projects/tufnell-park/04-tp-sq.jpg"
-  }, {
-    "alt": " ",
-    "slide": "img/projects/tufnell-park/05-tp.jpg",
-    "thumb": "img/projects/tufnell-park/05-tp-sq.jpg"
-  }, {
-    "alt": " ",
-    "slide": "img/projects/tufnell-park/06-tp.jpg",
-    "thumb": "img/projects/tufnell-park/06-tp-sq.jpg"
-  }, {
-    "alt": " ",
-    "slide": "img/projects/tufnell-park/07-tp.jpg",
-    "thumb": "img/projects/tufnell-park/07-tp-sq.jpg"
-  }],
-  "tc_table": [{
+  "tufnell_park": [
+    {
+      "alt": " ",
+      "slide": "img/projects/tufnell-park/01-tp.jpg",
+      "thumb": "img/projects/tufnell-park/01-tp-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/tufnell-park/02-tp.jpg",
+      "thumb": "img/projects/tufnell-park/02-tp-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/tufnell-park/03-tp.jpg",
+      "thumb": "img/projects/tufnell-park/03-tp-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/tufnell-park/04-tp.jpg",
+      "thumb": "img/projects/tufnell-park/04-tp-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/tufnell-park/05-tp.jpg",
+      "thumb": "img/projects/tufnell-park/05-tp-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/tufnell-park/06-tp.jpg",
+      "thumb": "img/projects/tufnell-park/06-tp-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/tufnell-park/07-tp.jpg",
+      "thumb": "img/projects/tufnell-park/07-tp-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/tufnell-park/08-tp.jpg",
+      "thumb": "img/projects/tufnell-park/08-tp-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/tufnell-park/09-tp.jpg",
+      "thumb": "img/projects/tufnell-park/09-tp-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/tufnell-park/010-tp.jpg",
+      "thumb": "img/projects/tufnell-park/010-tp-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/tufnell-park/011-tp.jpg",
+      "thumb": "img/projects/tufnell-park/011-tp-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/tufnell-park/012-tp.jpg",
+      "thumb": "img/projects/tufnell-park/012-tp-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/tufnell-park/013-tp.jpg",
+      "thumb": "img/projects/tufnell-park/013-tp-sq.jpg"
+    },
+    {
+      "alt": " ",
+      "slide": "img/projects/tufnell-park/014-tp.jpg",
+      "thumb": "img/projects/tufnell-park/014-tp-sq.jpg"
+    }
+  ],
+  "tc_table": [
+    {
       "alt": " ",
       "slide": "img/bespoke/tc-table/01-tc-table-sq.jpg"
     }
